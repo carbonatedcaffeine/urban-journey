@@ -74,11 +74,7 @@ Found at https://git.sr.ht/~hrdl/linux/
 # Install prerequisites, make sure you have clang and llvm installed.
 $ sudo apt install clang llvm
 
-# Clone the kernel repository, check repository for newer stable kernels.
-## For stable
-$ git clone -b v6.13.4 https://git.sr.ht/~hrdl/linux hrdl-linux
-
-## Main
+# Clone the kernel repository
 $ git clone https://git.sr.ht/~hrdl/linux hrdl-linux
 $ cd hrdl-linux
 
